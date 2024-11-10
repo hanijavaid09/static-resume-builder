@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+</body>
+</html>
+<div>
+    <h1>STATIC RESUME BUILDER</h1>
+    <form action="" id="main-form">
+
+        <fieldset>
+            <legend>PERSONAL INFORMATION</legend>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter your name" id="name" required> 
+            
+            <label for="email">Email:</label>
+            <input type="text" placeholder="Enter your email" id="email" required>
+             
+            <label for="phone">Phone Number:</label>
+            <input type="text" placeholder="Enter your phone number" id="phone" required>
+        </fieldset>
+        <br><br>
+
+                       <fieldset>
+            <legend>EDUCATION / DEGREE</legend>
+            <label for="education">Education:</label>
+            <input type="text" placeholder="Your Education" id="education" required>
+            
+            <label for="degree">Recently Passed Degree:</label>
+            <select id="degree" required>
+                <option value="">Select a degree</option>
+                <option value="matric">Matric</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="diploma">Diploma</option>
+                <option value="bachelor">Bachelors</option>
+            </select>
+        </fieldset>
+     <br><br>
+        <fieldset>
+            <legend>EXPERIENCE</legend>
+            <textarea id="experience" placeholder="Describe your work experience" required></textarea>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>SKILLS</legend>
+            <textarea id="skills" placeholder="List your skills" required></textarea>
+        </fieldset>
+        <br><br>
+        <button type="submit">Generate Your RESUME</button>
+    </form>
+</div>
+</body>
+</html>
